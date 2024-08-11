@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS File Start -->
+     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/slick.css">
+     <link rel="stylesheet" href="css/fontawesome.min.css">
+     <link rel="stylesheet" href="css/style.css">
+    <!-- CSS File  End -->
+</head>
+<body>
+    
+<section id="banner">
+   <div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="counterItem text-center">
+                <h1 id="days">Days</h1>
+             <h2>Days</h2>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="counterItem text-center">
+                <h1 id="hours">Hours</h1>
+              <h2>Hours</h2>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="counterItem text-center">
+                <h1 id="minutes">Minutes</h1>
+               <h2>Minutes</h2>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="counterItem text-center">
+                <h1 id="seconds">Seconds</h1>
+               <h2>Seconds</h2>
+            </div>
+        </div>
+    </div>
+   </div>
+</section>
+<br>
+
+<!-- Counter Up  -->
+<section id="banner2">
+   <div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="counterItem2 text-center">
+                <h1><span class="counter_up">60000</span>+</h1>
+             <h2>Successful Students</h2>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="counterItem2 text-center">
+                <h1><span class="counter_up">40000</span>+</h1>
+              <h2>Expert Freelancers</h2>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="counterItem2 text-center">
+                <h1><span class="counter_up">90</span>+</h1>
+               <h2>Success Ratio</h2>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="counterItem2 text-center">
+                <h1><span class="counter_up">2000</span>+</h1>
+               <h2>Industry Experts</h2>
+            </div>
+        </div>
+    </div>
+   </div>
+</section>
+<br>
+
+<section id="banner_part">
+<div class="container">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper ">
+
+            <div class="swiper-slide slider"></div>
+            <div class="swiper-slide one"></div>
+            <div class="swiper-slide two"></div>
+        </div>
+        
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      
+
+    </div>
+</div>
+
+</section>
+
+
+<!-- <i class="fa-solid fa-circle-arrow-right"></i>
+<i class="fa-solid fa-circle-arrow-left"></i> -->
+   <!-- JS Files -->
+<script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          freeMode: true,
+          navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+</body>
+</html>

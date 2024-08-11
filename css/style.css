@@ -1,0 +1,99 @@
+/* All common css 1*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    display: inline-block;
+}
+#banner
+{
+   background:url(../images/pexels-golden-jojo-428077-2409038.jpg);
+   padding: 100px 0px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover
+   ;
+}
+
+.counterItem
+{
+    padding: 40px;
+    background:#dec60d65;
+    color: rgb(255, 254, 254);
+    border-radius: 10px;
+}
+
+
+#banner2
+{
+   background:url(../images/02.jpg);
+   padding: 100px 0px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover
+   ;
+}
+
+.counterItem2
+{
+    padding: 40px;
+    background:#d22121a3;
+    color: rgb(255, 254, 254);
+    border-radius: 10px;
+}
+
+#banner_part
+{
+background:#4070f4;
+}
+
+.slider
+{
+    padding: 250px 0px;
+    background: url(../images/07.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.one 
+{
+    padding: 250px 0px;
+    background: url(../images/05.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two
+{
+    padding: 250px 0px;
+    background: url(../images/06.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prev
+{
+    color: rgb(43, 23, 61);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%);
+    z-index: 999;
+}
+
+.next
+{
+    color: rgb(43, 23, 61);
+    font-size: 50px;
+    top: 50%;
+    right: 25px;
+    transform: translate(-50%);
+    position: absolute;
+}
